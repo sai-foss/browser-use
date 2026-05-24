@@ -4,8 +4,9 @@ import asyncio
 
 async def main():
     llm = ChatOllama(
-        model="deepseek-v4-pro:cloud",
+        model="qwen3.5:397b-cloud",
     )
+    ## my client has API access
 
     task = """
     1. go to google.com then search for firefox. download a mac os version. Dont bother checking or clicking on the downloaded file.
